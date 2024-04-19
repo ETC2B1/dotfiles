@@ -2,7 +2,7 @@
 
 These are files I use on my personal machine, use as you wish
 I've used several different things from different people, I
-would appreciate it if you would at least put a comment in
+lskdjfwould appreciate it if you would at least put a comment in
 a file you use from me though.
 
 I currently use DWM but I also use StumpWM and Windowmaker,
