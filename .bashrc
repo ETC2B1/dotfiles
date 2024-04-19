@@ -1,6 +1,9 @@
-#
-# ~/.bashrc
-#
+# .bashrc used by ETC2B1
+# Author: ETC2B1
+# I'm still a boomer and use Bash over Zsh most of the time
+# The conversion is pretty easy though, so I'll just leave this
+# here instead of making both versions, yall aren't that special
+# >:D
 
 # INTERNAL/VISUAL
 # colors
@@ -14,12 +17,12 @@ PS1='λ \W \$ '
 # ALIAS
 
 # net
-alias connect-master="ssh -p 1337 giygas@192.168.68.100"
-alias mount-pc="sshfs -p 1337 -o allow_other giygas@192.168.68.100:/mnt/DATA /mnt/SHARE"
+alias connect-master="ssh -p ____ giygas@___.___.__.___."
+alias mount-pc="sshfs -p ____ -o allow_other giygas@___.___.__.___:/mnt/DATA /mnt/SHARE"
 
 # package management
 #alias pacclear="sudo pacman -Rsn $(pacman -Qdtq)" #DISABLED, USE MANUALLY
 alias paclist="comm -23 <(pacman -Qqett | sort) <(pacman -Qdg base-devel | sort | uniq)"
 
-#gaming
+# gaming
 alias bms="WINEPREFIX=$HOME/Games/bms32 LANG=ja_JP.UTF-8 wine $HOME/Games/LR2beta3/LR2.exe &"

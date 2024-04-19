@@ -1,7 +1,13 @@
+! .Xresources used by ETC2B1
+! Author: ETC2B1
+! https://github.com/ETC2B1/dotfiles
+! FONT: https://int10h.org/blog/2018/05/flexi-ibm-vga-scalable-truetype-font/
+! Utilizes xsel for copy paste, for use in URxvt (rxvt-unicode on arch)
+
 ! special
-*.foreground:	#00ff00
+*.foreground:	#cccccc
 *.background:	#000000
-*.cursorColor:	#00ff00
+*.cursorColor:	#cccccc
 
 ! black
 *.color0:	#000000
@@ -28,7 +34,7 @@
 *.color7:	#FFFFFF
 *.color15:	#cccccc
 
-*.font: xft:Perfect DOS VGA 437:style=Regular:size=11:hinting=true
+*.font: xft:Flexi IBM VGA True:style=Regular:size=14:antialias=true
 URxvt.letterSpace: 0
 URxvt.lineSpace: 0
 URxvt.geometry: 92x24
